@@ -28,7 +28,7 @@ const Feeds = (props: { token: string; }) => {
     ])
     // * Fetch Feeds & update feeds state
     return (
-        <div className="w-2/5 h-auto p-2 flex flex-col space-y-6">
+        <div className="w-full md:w-3/5 lg:w-2/5 2xl:w-1/4 h-auto p-2 flex flex-col space-y-6">
             {feeds.map(feed => (
                 <div key={feed.id} onClick={() => router.push(feed.href)} className="w-full h-36 border-[3px] border-white rounded-xl flex hover:cursor-pointer">
                     <div className="w-3/4 h-full p-4 flex flex-col space-y-2">
