@@ -1,7 +1,7 @@
 import ConnectedDesktopButtons from "./Navigation/ConnectedDesktopButtons";
 import DisconnectedDesktopButtons from "./Navigation/DisconnectedDesktopButtons";
 
-const Navbar = (props: { connected: boolean }) => {
+const Navbar = (props: { connected: boolean; env: string; }) => {
     return (
         <div className="w-full h-full">
             {/* Desktop Navbar */}
@@ -11,7 +11,7 @@ const Navbar = (props: { connected: boolean }) => {
                     <h1 className="font-sf-pro text-xl text-white font-semibold">.xyz</h1>
                 </div>
                 <div className="w-1/2 h-full p-4 flex items-center justify-end">
-                    {props.connected ? <ConnectedDesktopButtons /> : <DisconnectedDesktopButtons />}
+                    {props.connected ? <ConnectedDesktopButtons env={props.env} /> : <DisconnectedDesktopButtons />}
                 </div>
             </div>
             {/* Desktop Navbar */}

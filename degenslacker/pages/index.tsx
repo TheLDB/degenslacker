@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Degenslacker</title>
       </Head>
       <div className="w-full h-24 absolute top-0 right-0 left-0">
-        <Navbar connected={connected} />
+        <Navbar connected={connected} env={"landing"} />
       </div>
       <div className="w-full h-full bg-gradient-to-br from-site-orange via-site-purple to-site-blue flex justify-center items-center">
         {connected ? <Feeds token="aaaa" />: <h1>asaaaa</h1>}

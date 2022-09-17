@@ -14,14 +14,14 @@ const Feeds = (props: { token: string; }) => {
         {
             id: "1",
             name: "Feed 1",
-            href: "/aaaa",
+            href: "/feeds/1",
             userCount: 8,
             active: true
         },
         {
             id: "2",
             name: "Feed 2",
-            href: "/2",
+            href: "/feeds/2",
             userCount: 24,
             active: false
         }
