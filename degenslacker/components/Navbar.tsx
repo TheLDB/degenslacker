@@ -11,7 +11,7 @@ const Navbar = (props: { connected: boolean }) => {
                     <h1 className="font-sf-pro text-xl text-white font-semibold">.xyz</h1>
                 </div>
                 <div className="w-1/2 h-full p-4 flex items-center justify-end">
-                    {props.connected ? <DisconnectedDesktopButtons /> : <ConnectedDesktopButtons />}
+                    {props.connected ? <ConnectedDesktopButtons /> : <DisconnectedDesktopButtons />}
                 </div>
             </div>
             {/* Desktop Navbar */}
