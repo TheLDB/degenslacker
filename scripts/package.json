@@ -1,0 +1,13 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Scripts for the degenslacker web app",
+  "main": "index.js",
+  "repository": "https://github.com/TheLDB/degenslacker",
+  "author": "Landon Boles",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
