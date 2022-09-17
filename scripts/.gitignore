@@ -3,3 +3,9 @@ node_modules
 
 # Secrets
 .env
+
+# Cache
+yarn-error.log
+.vscode
+.pnpm
+.yarn
