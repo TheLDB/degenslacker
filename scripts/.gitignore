@@ -9,3 +9,4 @@ yarn-error.log
 .vscode
 .pnpm
 .yarn
+.DS_Store
